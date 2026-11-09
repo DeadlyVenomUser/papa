@@ -23,6 +23,10 @@
 		embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
 	</script>
 </div>
-
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://ucm.edu.co"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, X-Requested-With"
+</IfModule>
 </body>
 </html>
