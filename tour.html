@@ -71,7 +71,7 @@
 				if (isWebVr) {
 					embedpano({
 						id:"krpanoSWFObject"
-						,xml:"TourUCMdata/TourUCM_vr.xml"
+						,xml:"tour.xml"
 						,target:"panoDIV"
 						,passQueryParameters:true
 						,bgcolor:"#000000"
@@ -85,7 +85,7 @@
 					embedpano({
 						id:"krpanoSWFObject"
 
-						,swf:"TourUCMdata/TourUCM.swf"
+						,swf:"tour.swf"
 
 						,target:"panoDIV"
 						,passQueryParameters:true
@@ -137,11 +137,11 @@
 					<noscript>
 
 						<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="TourUCMdata/TourUCM">
-							<param name="movie" value="TourUCMdata/TourUCM.swf"/>
+							<param name="movie" value="tour.swf"/>
 							<param name="allowFullScreen" value="true"/>
 							<!--[if !IE]>-->
-							<object type="application/x-shockwave-flash" data="TourUCMdata/TourUCM.swf" width="100%" height="100%">
-								<param name="movie" value="TourUCMdata/TourUCM.swf"/>
+							<object type="application/x-shockwave-flash" data="tour.swf" width="100%" height="100%">
+								<param name="movie" value="tour.swf"/>
 								<param name="allowFullScreen" value="true"/>
 								<!--<![endif]-->
 								<a href="https://www.ensfea.fr/tour/lc/tour.html">
@@ -155,7 +155,7 @@
 					</noscript>
 				</div>
 
-				<script type="text/javascript" src="TourUCMdata/TourUCM.js"></script>
+				<script type="text/javascript" src="tour.js"></script>
 				<script type="text/javascript">
 					if (isVRModeRequested()){
 						accessWebVr();
